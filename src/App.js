@@ -6,9 +6,13 @@ import Main from './router'
 class App extends Component {
   render() {
     return (
+
     <Provider store={store}>
-       <Main/>
+    
+            <Main/>
+
     </Provider>
+
     );
   }
 }

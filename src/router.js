@@ -1,15 +1,15 @@
 import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route, BrowserRouter } from 'react-router-dom'
 import Login from './views/login'
 import Dashboard from './views/dashboard'
 
 const Main = () => (
-    <main>
+    <BrowserRouter>
         <Switch>
             <Route exact path='/' component={Login}/>
             <Route  path='/dashboard' component={Dashboard}/>
         </Switch>
-    </main>
+    </BrowserRouter>
 )
 
 export default Main

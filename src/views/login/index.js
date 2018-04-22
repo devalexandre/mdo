@@ -5,10 +5,8 @@ import './login.css'
 class Login extends Component {
 
     submit = values => {
-    
 
-        console.log(arguments)
-
+        console.log(values)
     }
 
 render(){
