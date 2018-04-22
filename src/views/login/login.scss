@@ -1,0 +1,21 @@
+#login{
+  display: flex;
+  flex-direction: row;
+}
+
+#frmLogin{
+  display: flex;
+  border: 1px solid #222222;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+  margin-top: 20%;
+  width: 80%;
+  input{
+    width: 100%;
+  }
+    #submit{
+      align-self: center;
+  width: 100px;
+    }
+}
